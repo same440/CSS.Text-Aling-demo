@@ -1,0 +1,102 @@
+/*---------------- text-align শেখা | Learning text-align 🢃----------------*/
+/* টেক্সট কোন দিকে থাকবে সেটা নির্ধারণ করে | Sets horizontal alignment of text */
+
+.one {
+  text-align: center; /* টেক্সট মাঝখানে থাকবে | Text will be centered */
+  text-align: right;  /* টেক্সট ডান পাশে থাকবে | Text will align to the right */
+  /* নোট: একই সিলেক্টরে একাধিক text-align দিলে শেষটিই কাজ করবে | Only the last one will take effect */
+}
+
+/*---------------- margin-bottom শেখা | Learning margin-bottom 🢃----------------*/
+/* প্যারাগ্রাফের নিচে ফাঁকা জায়গা তৈরি করে | Adds space below a paragraph */
+/*
+p {
+  margin-bottom: 20px; /* নিচে ২০px স্পেস দিবে | Adds 20px space at the bottom */
+}
+*/
+
+/*---------------- margin-top + text-align শেখা | margin-top + text-align 🢃----------------*/
+/* উপরে ফাঁকা জায়গা তৈরি করে এবং টেক্সটকে মাঝখানে আনে | Adds space at top and centers text */
+/*
+.two {
+  margin-top: 20px; /* উপরে ২০px স্পেস | 20px space at the top */
+  text-align: center; /* মাঝখানে টেক্সট | Center the text */
+}
+*/
+
+/*---------------- direction শেখা | Learning text direction 🢃---------------*/
+/* কোন দিক থেকে টেক্সট শুরু হবে তা নির্ধারণ করে | Sets text reading direction */
+/*
+.three {
+  direction: rtl; /* ডান থেকে বামে (Right to Left) */
+  unicode-bidi: bidi-override; /* ডিরেকশন ফোর্স করে | Forces text direction */
+  direction: ltr; /* বাম থেকে ডানে (Left to Right) */
+}
+*/
+
+/*---------------- Image Size শেখা | Learning image size 🢃---------------*/
+/* ইমেজের প্রস্থ এবং উচ্চতা নির্ধারণ করা হয় | Sets image width and height */
+img {
+  width: 10px;  /* প্রস্থ ১০px | Width is 10px */
+  height: 10px; /* উচ্চতা ১০px | Height is 10px */
+}
+
+/*---------------- vertical-align শেখা | Learning vertical-align 🢃----------------*/
+/* টেক্সট বা এলিমেন্ট উঁচু-নিচু কিভাবে বসবে সেটা নির্ধারণ করে | Controls vertical positioning */
+
+/*
+.baseline {
+  vertical-align: baseline; /* লেখার বেসলাইন অনুযায়ী এলাইন | Align with text baseline */
+}
+*/
+
+/*
+.text-top {
+  vertical-align: text-top; /* লেখার টপ লাইনের সাথে এলাইন | Align with the top of the text line */
+}
+*/
+
+/*
+.text-bottom {
+  vertical-align: text-bottom; /* নিচের লাইনের সাথে এলাইন | Align with the bottom of the text line */
+}
+*/
+
+/*---------------- text-decoration শেখা | Learning text-decoration 🢃----------------*/
+/* লেখার নিচে, উপর দিয়ে বা মাঝ দিয়ে দাগ দিতে ব্যবহৃত হয় | Adds lines to text */
+
+/*
+.none {
+  text-decoration: none; /* কোন দাগ থাকবে না | No underline or decoration */
+}
+.overline {
+  text-decoration: overline; /* লেখার উপরে দাগ | Line over the text */
+}
+.line-through {
+  text-decoration: line-through; /* লেখার মাঝে দাগ | Line through the text */
+  text-decoration: overline underline; /* উপরে ও নিচে দাগ | Line above and below the text */
+}
+*/
+
+/*---------------- text-transform শেখা | Learning text-transform 🢃----------------*/
+/* অক্ষর বড়, ছোট বা ক্যাপিটালাইজ করতে ব্যবহৃত হয় | Controls capitalization of text */
+
+/*
+h2 {
+  text-transform: capitalize; /* প্রতিটি শব্দের প্রথম অক্ষর বড় | First letter of each word capitalized */
+  text-transform: uppercase;  /* সব অক্ষর বড় | All letters uppercase */
+  letter-spacing: 10px;       /* অক্ষরের মাঝে ফাঁকা | Space between letters */
+}
+*/
+
+/*---------------- text-indent শেখা | Learning text-indent 🢃----------------*/
+/* প্যারাগ্রাফের প্রথম লাইনের শুরুতে স্পেস তৈরি করে | Adds space at beginning of first line */
+
+/*
+p {
+  text-indent: 100px; /* প্রথম লাইনে ১০০px স্পেস | 100px indent on first line */
+  font-size: 15px;     /* ফন্ট সাইজ ১৫px | Font size is 15px */
+  line-height: 25px;   /* লাইন উচ্চতা ২৫px | Line height is 25px */
+  white-space: break-space; /* স্পেস ব্রেক করতে দিবে | Allows breaking at spaces */
+}
+*/
